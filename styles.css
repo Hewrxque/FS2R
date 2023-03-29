@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.background {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(assets/image/rider.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+.content {
+    float: right;
+    text-align: right;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    margin-right: 100px;
+    margin-top: 200px;
+}
+
+.content h1 {
+    position: absolute;
+    width: 474px;
+    height: 108px;
+    left: 764px;
+    top: 316px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 108px;
+
+    text-align: right;
+
+    color: #FAFF00;
+
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.content h2 {
+
+    position: absolute;
+    width: 243px;
+    height: 77px;
+    left: 995px;
+    top: 254px;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+
+
+    text-align: right;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+.content h3 {
+
+    position: absolute;
+    width: 419px;
+    height: 154px;
+    left: 819px;
+    top: 424px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.content h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 113px;
+    height: 48px;
+    left: 1125px;
+    top: 591px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.content button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+
+    position: absolute;
+    width: 113px;
+    height: 48px;
+    left: 1125px;
+    top: 591px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
